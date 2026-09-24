@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "26.4.0"
+  version: "26.9.0"
 
 package:
   name: pytest-ansible
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pytest-ansible/pytest_ansible-${{ version }}.tar.gz
-  sha256: 50c2c5f05472e5a41a8d9b29c38e98292c1605f57a70954fc20b51b1f5cabb82
+  sha256: bede6952305f01e82fa20a35589a023472255b1a75cf2dd9bad0d09ef5b68740
 
 build:
   noarch: python
